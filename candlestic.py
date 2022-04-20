@@ -7,7 +7,6 @@ interval = '1m'
 socket = f'wss://stream.binance.com:9443/ws/{cc}t@kline_{interval}'
 
 closes, highs, lows =[], [], []
-#making candlestick
 
 
 def on_message(ws, message):
